@@ -147,12 +147,32 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/uibcdf/pocketmt",
+            "url": "https://github.com/uibcdf",
             "icon": "fa-brands fa-github",
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://github.com/uibcdf",
+            "icon": "fa-brands fa-linkedin",
+        },
+        {
+            "name": "X",
+            "url": "https://github.com/uibcdf",
+            "icon": "fa-brands fa-x-twitter",
+        },
+        {
+            "name": "Bluesky",
+            "url": "https://github.com/uibcdf",
+            "icon": "fa-brands fa-bluesky",
+        },
+        {
+            "name": "Youtube",
+            "url": "https://github.com/uibcdf",
+            "icon": "fa-brands fa-youtube",
         },
     ],
     "use_edit_page_button": False,
-    "header_links_before_dropdown": 8,  # valor alto para evitar 'More'
+    "header_links_before_dropdown": 6,  # valor alto para evitar 'More'
 }
 
 html_context = {
