@@ -47,3 +47,4 @@ jobs:
         uses: uibcdf/action-sphinx-docs-to-gh-pages@v2.1.0
         with:
           sphinx-opts: '-j auto'
+          dir_docs: '.'
